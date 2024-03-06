@@ -1,0 +1,66 @@
+@media screen and (max-width: 992px) {
+
+  body:not(:has(:target)) .home-link::before,
+  body:has(.home:target) .home-link::before,
+  body:has(.about:target) .about-link::before,
+  body:has(.services:target) .services-link::before,
+  body:has(.work:target) .work-link::before,
+  body:has(.blog:target) .blog-link::before,
+  body:has(.drop:target) .drop-link::before,
+  body:has(.contact:target) .contact-link::before {
+    width: 5%;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .nav-item a:hover::before {
+    width: 7%;
+    left: 0;
+  }
+}
+
+
+/* home */
+
+
+@media screen and (max-width: 992px) {
+  /* header .container {
+      flex-direction: column-reverse;
+      justify-content: center;
+
+  }
+
+  header .container>* {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  header .container .header-content {
+      margin-top: 30px;
+  }
+
+  header .btn-main {
+      --border-radius: 100vh;
+  } */
+
+
+  #home .home-content h1{
+
+
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#home .home-content .home-animation {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+}
